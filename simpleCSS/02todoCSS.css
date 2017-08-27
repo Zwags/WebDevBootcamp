@@ -1,0 +1,11 @@
+li {
+  border: 2px solid red;
+}
+
+#thirdItem {
+  background: yellow;
+}
+
+.otherItems{
+  text-decoration: line-through;
+}

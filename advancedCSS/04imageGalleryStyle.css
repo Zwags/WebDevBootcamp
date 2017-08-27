@@ -1,0 +1,14 @@
+img {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+}
+
+p{
+  margin-left:1.66%;
+  font-family: Baloo Tammudu;
+  font-size: 40;
+  font-weight: 400;
+  border-bottom: 3px solid #f1f1f1;
+  width: 30%;
+}

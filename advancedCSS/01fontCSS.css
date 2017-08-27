@@ -1,0 +1,57 @@
+/*Font family*/
+p{
+  font-family: "Righteous";
+}
+
+h1{
+  font-family: "Orbitron";
+}
+
+/*font-size*/
+
+body{
+  font-size: 10px;
+}
+h1 {
+  font-size: 5.0em;
+}
+
+p{
+  font-size:2.0em;
+}
+/*EM makes it size relative to the parent of the element, its dynamic*/
+span {
+  font-size: 2.0em;
+}
+
+/*font-weight*/
+/*refers to boldness/thin-ness of text*/
+h1{
+  font-weight: 700;
+}
+p{
+  font-weight: bold;
+}
+
+/*line height*/
+p{
+  line-height: 1.5;
+}
+
+/*text-aligh*/
+
+h1{
+  text-align: center;
+}
+
+p{
+  text-align: right;
+}
+
+/*text decoration*/
+h1 {
+  text-decoration: line-through;
+}
+span{
+  text-decoration: overline underline;
+}

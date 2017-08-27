@@ -1,0 +1,30 @@
+
+/*Everything inherited the parent color of red*/
+body {
+  color: red;
+}
+
+/*This line crosses out the above inheritence and overwrites it with green*/
+h2 {
+  color: green;
+}
+
+/*Li inherited the parent color purple*/
+/*ul {
+  color: purple;
+}*/
+
+/*element selectors are the least specific*/
+li {
+  color: black;
+}
+
+/*A class will overwite an element*/
+.highlight {
+  color: blue;
+}
+
+/*ID will overwrite an element and class, is the most specific selector*/
+#special {
+  color: pink;
+}
