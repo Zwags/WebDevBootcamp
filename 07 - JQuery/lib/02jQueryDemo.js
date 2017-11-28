@@ -28,3 +28,20 @@
 // }
 // console.log(event);
 // });
+
+
+//This method makes the three divs fade away then they are removed from the page
+$('#fadeButton').on("click", function() {
+  $('div').fadeOut(3000, function() {
+    $(this).remove();
+  });
+})
+//
+// $('#fadeButton').on("click", function() {
+//   $('div').fadeIn(1000); //Fades in
+// })
+//
+// $('#fadeButton').on("click", function() {
+//   $('div').fadeToggle(1000); //Similar to Adding a class to a class list
+//   });
+// })
